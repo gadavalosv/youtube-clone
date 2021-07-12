@@ -1,0 +1,18 @@
+.sidebar{
+    flex: 0.18;
+    position: sticky;
+}
+
+.sidebar > hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 725px) {
+    .sidebar{
+        display:none;
+    }
+}
